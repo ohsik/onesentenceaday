@@ -4,7 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Leean one sentence a day in
+<p>&nbsp;</p>
+
+<p>
+    <img src="/assets/images/favicon.svg" alt="One Sentence a Day favicon" class="logo fav" />
+    <img src="/assets/images/logo.svg" alt="One Sentence a Day favicon" class="logo" />
+</p>
+
+<p>&nbsp;</p>
+
+<p>Learn one sentence a day in</p>
 
 - English
 - Spanish
