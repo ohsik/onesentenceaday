@@ -33,10 +33,11 @@ h1, h2, h3{
 	color: #555 !important;
 }
 .c-time time{
-	font-size: 1.4em;
+	font-size: 1.2em;
 	padding-bottom: 4px;
-	border-bottom: 2px dashed #666;
-	margin-bottom: 20px;
+	border-bottom: 1px dashed #555;
+	width: 100%;
+	margin-bottom: 10px;
 	display: inline-block;
 }
 .lag-tag{
