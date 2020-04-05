@@ -19,5 +19,5 @@ permalink: /about/
 - Spanish
 - Portuguese
 
-Interested in contributing on your own language? Please visit <a href="https://github.com/ohsik/onesentenceaday" target="_blank">Github Repo</a>
+Interested in contributing on your own language? Please visit <a href="https://github.com/ohsik/onesentenceaday" target="_blank">Github Repo</a>.
 

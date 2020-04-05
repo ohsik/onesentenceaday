@@ -5,8 +5,10 @@
 layout: home
 ---
 
-<h1 class="h-lg">Learn One Sentence a Day in English, Spanish, and Portuguese!</h1>
+<h1 class="h-lg">Learn <span style="color: #f1a717;">One</span> <span style="color: #ec4949;">Sentence</span> <span style="color: #3494ec;">a</span> <span style="color: #1db02b;">Day</span> in English, Spanish, and Portuguese!</h1>
+
+<p>&nbsp;</p>
 
 <hr />
 
-<p></p>
+<p>&nbsp;</p>

@@ -14,7 +14,7 @@ h1, h2, h3{
 }
 .logo{
 	width: 100%;
-	max-width: 260px;
+	max-width: 200px;
 }
 .fav{
 	max-width: 50px;
@@ -41,6 +41,7 @@ h1, h2, h3{
 	padding: 8px 16px;
 	border-radius: 8px;
 	font-size: 1em;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sentence-card{
 	max-width: 540px;
