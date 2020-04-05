@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&display=swap');
+
+html, body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+h1, h2, h3{
+	font-weight: 900 !important;
+	font-family: 'Source Code Pro', monospace !important;
+}
+
+.h-lg{
+	font-size: 2.8em !important;
+	line-height: 140%;
+}
+.post-meta{
+	color: #555 !important;
+}
+.c-time time{
+	font-size: 1.4em;
+	padding-bottom: 4px;
+	border-bottom: 2px dashed #666;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.lag-tag{
+	background: #f9f9f9;
+	padding: 8px 16px;
+	border-radius: 8px;
+	font-size: 1em;
+}
+.sentence-card{
+	max-width: 540px;
+	border: 1px solid #eee;
+	padding: 32px;
+	margin: 0 auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+	background: #fff7cc;
+}
+.post-link{
+	font-size: 2em !important;
+}
