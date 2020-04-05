@@ -5,4 +5,8 @@
 layout: home
 ---
 
-<h1>Learn One Sentence a Day in English, Spanish, and Portuguese!</h1>
+<h1 class="h-lg">Learn One Sentence a Day in English, Spanish, and Portuguese!</h1>
+
+<hr />
+
+<p></p>

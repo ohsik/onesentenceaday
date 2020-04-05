@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Fuck Coronavirus"
-date:   2020-04-04 20:56:14 -0400
-categories: english
+date:   2020-04-04 20:59:14 -0400
+categories: English
 ---
 
-<tag class="english">🇺🇸 English</tag>
-<h1 class="todays-sentence">Fuck Coronavirus</h1>
-
-<small><i>Learn one sentence a day at OneSentenceADay.com</i></small>
+<span class="lag-tag">🇺🇸 English</span>
+<h1 class="h-lg">Fuck Coronavirus</h1>
