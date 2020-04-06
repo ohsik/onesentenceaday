@@ -17,6 +17,20 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-sentences">
+    {% for cat in page.categories %}
+      <h2>Past {{ cat }} Sentences</h2>
+      <ul class="post-list">
+        {% for post in site.categories[cat] %}
+          <li>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

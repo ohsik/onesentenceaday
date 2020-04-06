@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+            <h1>Language: {{ page.title }}</h1>
+            <div class="post-sentences"></div>
+                <ul class="post-list">
+                  {% for post in page.posts %}
+                  <li>
+                    <span class="post-meta"><b>{{ post.categories | categories_format }}</b></span> &bull;
+                    <span class="post-meta">{{ post.date | date: date_format }}</span>
+                    <h3>
+                        <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                        </a>
+                    </h3>
+                  </li>
+                  {% endfor %}
+                </ul>
+            </div>
+        </article>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
