@@ -27,13 +27,27 @@ url: "https://onesentenceaday.com" # the base hostname & protocol for your site,
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+# permalink: /:categories/:year/:month/:day/:title:output_ext
+# permalink: /:categories/:title/
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/:name/'
 
-permalink: /:categories/:year/:month/:day/:title:output_ext
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
 
+# Google Analytics
+# gtag: "UA-161702889-1"
   
 
 # Exclude from processing.

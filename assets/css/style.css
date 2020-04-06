@@ -48,7 +48,8 @@ h1, h2, h3{
 	display: inline-block;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.sentence-card{
+.sentence-card,
+.post-sentences{
 	max-width: 540px;
 	border: 1px solid #eee;
 	padding: 32px;
@@ -57,8 +58,19 @@ h1, h2, h3{
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 	background: #fff7cc;
 }
+.post-sentences{
+	background: none;
+	box-shadow: none;
+	border: none;
+}
+.post-sentences li{
+	border-bottom: 1px solid #eee;
+}
 .site-header{
 	border-top: none !important;
+}
+.post-list > li{
+	border-bottom: 1px solid #eee;
 }
 
 @media screen and (max-width: 800px){
